@@ -275,3 +275,100 @@ html {
 .marquee_section {
   padding: 0;
 }
+.subscribe_container {
+  background-color: #e5e5e5;
+  padding: 4rem 0;
+  text-align: center;
+  border-radius: 4rem 0.4rem 0.4rem 0.4rem;
+  position: relative;
+}
+.subscribe_container h4 {
+  font-size: 2.4rem;
+  padding: 0 5rem;
+  color: #5e6282;
+  font-family: var(--font-poppins);
+  text-align: center;
+  margin: 2rem 0;
+}
+.input_btn {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 0.7rem;
+  justify-content: center;
+}
+.input_btn input {
+  border-radius: 0.7rem;
+  width: 25%;
+  color: #14183e;
+  font-size: 1rem;
+  font-family: var(--font-poppins);
+  padding: 0.8rem;
+}
+.subcribe_btn {
+  background-color: #ff946d;
+}
+.subscribe_container::before {
+  position: absolute;
+  content: url("../public/images/Mask\ .png");
+  scale: 0.7;
+  left: -10%;
+  top: 0;
+}
+.subscribe_container::after {
+  position: absolute;
+  content: url("../public/images/Mask\ .png");
+  scale: 0.7;
+  right: 0%;
+  bottom: 10%;
+}
+.footer_section {
+  padding-top: 0;
+  font-family: var(--font-poppins);
+}
+.footer_container .top {
+  display: grid;
+  grid-template-columns: 1.4fr repeat(3, 1fr) 1.5fr;
+  gap: 4rem;
+}
+.top p,
+.top li {
+  color: #5e6282;
+}
+.logo_tagline p,
+.top ul {
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+.logo_tagline p {
+  font-size: 0.9rem;
+}
+
+.top ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.get_on {
+  text-align: center;
+}
+.get_on .social_icons {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
+.social_icons img {
+  width: 50px;
+  height: 50px;
+}
+.get_on p {
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+.get_on .download {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  gap: 10px;
+}
